@@ -19,21 +19,21 @@ for i in range(5):
     wait_time = random.randint(1, 60)
     time.sleep(wait_time)
 
-#print current working directory
+# print current working directory
 where_am_I = getcwd()
 
 print(where_am_I)
 
-#iterate a specific amount of times
+# iterate a specific amount of times
 for n in range(4):
     print(n, "test")
 
-#iterate a string
+# iterate a string
 for char in "Sandro":
     print(char)
 
-#iterate an array/list
+# iterate an array/list
 for i in [1,2,3,4,5]:
     print(i)
     
-#help(range)
+# help(range)
