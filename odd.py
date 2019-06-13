@@ -15,6 +15,7 @@ for i in range(5):
     else:
         print("Not an odd minute.")
 
+    #random library and time library
     wait_time = random.randint(1, 60)
     time.sleep(wait_time)
 
