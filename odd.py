@@ -36,3 +36,4 @@ for char in "Sandro":
 for i in [1,2,3,4,5]:
     print(i)
     
+#help(range)
