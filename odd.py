@@ -1,4 +1,5 @@
 from datetime import datetime
+from os import getcwd
 
 odds = [ 1,  3,  5,  7,  9, 11, 13, 15, 17, 19,
         21, 23, 25, 27, 29, 31, 33, 35, 37, 39,
@@ -7,6 +8,23 @@ odds = [ 1,  3,  5,  7,  9, 11, 13, 15, 17, 19,
 right_this_minute = datetime.today().minute
 
 if right_this_minute in odds:
-    print("This minute seems a little odd")
+    print('This minute seems a little odd')
 else:
     print("Not an odd minute.")
+
+where_am_I = getcwd()
+
+print(where_am_I)
+
+#iterate a specific amount of times
+for n in range(4):
+    print(n, "test")
+
+#iterate a string
+for char in "Sandro":
+    print(char)
+
+#iterate an array/list
+for i in [1,2,3,4,5]:
+    print(i)
+    
