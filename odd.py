@@ -33,10 +33,11 @@ for char in "Sandro":
     print(char)
 
 # iterate an array/list
-for i in [1,2,3,4,5]:
+for i in [1, 2, 3, 4, 5]:
     print(i)
-
-# help(range)
 
 list(range(5))
 list(range(0, 10, 2))
+
+
+# help(range)
