@@ -35,6 +35,8 @@ for char in "Sandro":
 # iterate an array/list
 for i in [1,2,3,4,5]:
     print(i)
-    
+
 # help(range)
+
+list(range(5))
 
