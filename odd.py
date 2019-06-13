@@ -15,7 +15,7 @@ for i in range(5):
     else:
         print("Not an odd minute.")
 
-wait_time = random.
+wait_time = random.randint
 
 #print current working directory
 where_am_I = getcwd()
