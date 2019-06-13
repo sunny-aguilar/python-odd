@@ -39,3 +39,4 @@ for i in [1,2,3,4,5]:
 # help(range)
 
 list(range(5))
+list(range(0, 10, 2))
