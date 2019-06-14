@@ -1,5 +1,5 @@
-word = "mississipi"
+vowels = ['a', 'e', 'i', 'o', 'u']
 
-for vowel in word:
-	if vowel == "i":
+for vowel in vowels:
+	if vowel == "i" | vowels == "a":
 		print("i found!")
