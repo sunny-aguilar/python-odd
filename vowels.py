@@ -1,14 +1,13 @@
-# vowels = ['a', 'e', 'i', 'o', 'u']
-# word = input("Provide a word to search for vowels: ")
-# found = []
+vowels = ['a', 'e', 'i', 'o', 'u']
+word = input("Provide a word to search for vowels: ")
+found = []
 
-# for letter in word:
-# 	if letter in vowels:
-# 		if letter not in found:
-# 			found.append(letter)
+for letter in word:
+    if letter in vowels:
+        if letter not in found:
+            found.append(letter)
 
-# for vowel in found:
-# 	print(vowel)
+for vowel in found:
+    print(vowel)
 
-name = input("What's your name? ")
-print("Nice to meet you " + name + "!")
+name = input("Type your name: ")
