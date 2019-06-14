@@ -1,6 +1,8 @@
 vowels = ['a', 'e', 'i', 'o', 'u']
 word = "milliways"
+found = []
 
 for letter in word:
 	if letter in vowels:
-		print(letter)
+		if letter not in found:
+			found.append(letter)
