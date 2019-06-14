@@ -36,8 +36,8 @@ for char in "Sandro":
 for i in [1, 2, 3, 4, 5]:
     print(i)
 
-list(range(5))
-list(range(0, 10, 2))
+
+print(list(range(5)))
 
 
 # help(range)
