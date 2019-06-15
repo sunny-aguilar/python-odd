@@ -6,5 +6,5 @@ print(plist)
 # convert to "on tap"
 keepWords = ['o', 'n', 't', 'a', 'p']
 newPhrase = []
-for a in plist:
+for i in plist:
     if i in ke
