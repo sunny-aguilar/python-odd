@@ -3,5 +3,6 @@ print(mylist)
 mylist.remove(1)
 print(mylist)
 
-mylist.pop()
+x = mylist.pop(2)
 print(mylist)
+print(x)
