@@ -8,3 +8,4 @@ keepWords = ['o', 'n', 't', 'a', 'p']
 newPhrase = []
 for i in range:
     plist.pop()
+plist.pop()
