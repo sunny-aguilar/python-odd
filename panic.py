@@ -4,8 +4,7 @@ print(phrase)
 print(plist)
 # ['D', 'o', 'n', "'", 't', ' ', 'p', 'a', 'n', 'i', 'c', '!']
 # convert to "on tap"
-keepWords = ['o', 'n', 't', 'a', 'p']
-newPhrase = []
-for i in range:
+
+for i in range(4):
     plist.pop()
 plist.pop()
