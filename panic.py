@@ -7,4 +7,4 @@ print(plist)
 keepWords = ['o', 'n', 't', 'a', 'p']
 newPhrase = []
 for i in range:
-    if i in ke
+    plist.pop()
