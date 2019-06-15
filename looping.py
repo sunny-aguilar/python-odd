@@ -7,7 +7,7 @@
 # print(mylist)
 # print(x)
 
-list_one = [1, 2, 3, 4, 5, 6]
-list_two = [7, 8, 9]
+list_one = [0, 1, 2, 3, 4, 5]
+list_two = [5, 6, 7, 8, 9]
 list_one.extend(list_two)
 print(list_one)
