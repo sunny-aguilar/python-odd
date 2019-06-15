@@ -4,7 +4,7 @@ print(phrase)
 print(plist)
 # ['D', 'o', 'n', "'", 't', ' ', 'p', 'a', 'n', 'i', 'c', '!']
 # convert to "on tap"
-
+keepWords = ['o', 'n', 't', 'a', 'p']
 newPhrase = []
 for a in plist:
-    print(a)
+    if i in ke
