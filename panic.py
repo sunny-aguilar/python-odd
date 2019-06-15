@@ -2,7 +2,7 @@ phrase = "Don't panic!"
 plist = list(phrase)
 print(phrase)
 print(plist)
-# what
+# what prints
 # ['D', 'o', 'n', "'", 't', ' ', 'p', 'a', 'n', 'i', 'c', '!']
 # convert to "on tap"
 
