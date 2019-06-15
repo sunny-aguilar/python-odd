@@ -8,3 +8,4 @@ print(plist)
 for i in range(4):
     plist.pop()
 plist.pop()
+plist.remove("'")
