@@ -18,5 +18,5 @@ list_one.extend(list_two)
 print(list_one)
 
 # insert(where, what)
-list_one.insert(0, -1)
+list_one.insert(0, "Sandro")
 print(list_one)
