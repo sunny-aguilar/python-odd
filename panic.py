@@ -1,1 +1,1 @@
-phrase = ""
+phrase = "Don't panic!"
