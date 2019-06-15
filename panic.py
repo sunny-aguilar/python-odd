@@ -10,3 +10,4 @@ for i in range(4):
 plist.pop()
 plist.remove("'")
 plist.extend([plist.pop(), plist.pop()])
+plist.insert()
