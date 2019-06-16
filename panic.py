@@ -1,4 +1,4 @@
-# Author:   Sand
+# Author:   Sandr
 # Date:     June
 
 phrase = "Don't panic!"
