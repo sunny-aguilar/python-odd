@@ -1,4 +1,4 @@
-# Aut
+# Auth
 
 phrase = "Don't panic!"
 plist = list(phrase)
