@@ -1,5 +1,5 @@
 # Author:   Sandro
-# Date:     June 15
+# Date:     June 15,
 
 phrase = "Don't panic!"
 plist = list(phrase)
