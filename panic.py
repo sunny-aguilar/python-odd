@@ -1,4 +1,4 @@
-# Author:   S
+# Author:   Sa
 # Date:     Ju
 
 phrase = "Don't panic!"
