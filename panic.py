@@ -1,6 +1,6 @@
 # Author:   Sandro Aguilar
 # Date:     June 15, 2019
-# Description
+# Description:
 
 phrase = "Don't panic!"
 plist = list(phrase)
