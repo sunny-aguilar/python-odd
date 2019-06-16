@@ -1,5 +1,5 @@
 # Author:           Sandro Aguilar
-# Date:         June 15, 2019
+# Date:             June 15, 2019
 # Description:
 
 phrase = "Don't panic!"
