@@ -1,4 +1,4 @@
-# Author:
+# Author:   S
 # Date:
 
 phrase = "Don't panic!"
