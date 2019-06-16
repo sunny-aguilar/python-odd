@@ -1,5 +1,5 @@
 # Author:
-# Dat
+# Date
 
 phrase = "Don't panic!"
 plist = list(phrase)
