@@ -1,6 +1,6 @@
 # Author:   Sandro Aguilar
 # Date:     June 15, 2019
-# De
+# Des
 
 phrase = "Don't panic!"
 plist = list(phrase)
