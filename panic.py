@@ -1,4 +1,4 @@
-# Author:   Sandro Ag
+# Author:   Sandro Agu
 # Date:     June 15, 2019
 
 phrase = "Don't panic!"
