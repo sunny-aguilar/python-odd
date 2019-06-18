@@ -22,4 +22,4 @@
 # print(new_phrase)
 myNums = 12345
 myList = list(myNums)
-print(myList[1])
+print(myList)
