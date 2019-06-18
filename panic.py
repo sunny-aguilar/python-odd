@@ -21,5 +21,5 @@
 # print(plist)
 # print(new_phrase)
 myNums = 12345
-myList = list(myNums)
+myList = list(12345)
 print(myList)
