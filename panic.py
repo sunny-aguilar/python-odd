@@ -21,5 +21,5 @@
 # print(plist)
 # print(new_phrase)
 myName = "sandro"
-myList = list(12345)
+myList = list(myName)
 print(myList)
