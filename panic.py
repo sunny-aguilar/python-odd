@@ -20,6 +20,6 @@
 # new_phrase = ''.join(plist)
 # print(plist)
 # print(new_phrase)
-myName = "sandro"
+myName = "Sandro Aguilar lives in Roseville"
 myList = list(myName)
-print(myList[0:6:1])
+print(myList[0:6:2])
