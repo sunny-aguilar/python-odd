@@ -11,7 +11,7 @@ print(plist)
 # convert to "on tap"
 
 new_phrase = ''.join(list(plist[1:3:1])) \
-             + ''.join(list(plist[5:6:1])) + ''.join(list(plist()))
+             + ''.join(list(plist[5:6:1])) + ''.join(list(plist[4]))
              + ''.join(list(plist[7:5:-1]))
 
 # for i in range(4):
