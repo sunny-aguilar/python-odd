@@ -1,6 +1,6 @@
 # Author:           Sandro Aguilar
-# Date:             June 15, 2019
-# Description:      P
+# Date:             June 17, 2019
+# Description:      Python program
 
 phrase = "Don't panic!"
 plist = list(phrase)
