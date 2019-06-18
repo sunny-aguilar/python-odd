@@ -22,4 +22,5 @@
 # print(new_phrase)
 myName = "Sandro Aguilar lives in Roseville"
 myList = list(myName)
-print(myList[0:6:2])
+
+print(''.join(myList[0:6]))
