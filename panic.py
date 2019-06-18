@@ -10,7 +10,7 @@ print(plist)
 # ['D', 'o', 'n', "'", 't', ' ', 'p', 'a', 'n', 'i', 'c', '!']
 # convert to "on tap"
 
-new_phrase = ''.join(list(plist[1:3:1])).join(list())
+new_phrase = ''.join(list(plist[1:3:1])).join(list(plist[]))
 
 # for i in range(4):
 #     plist.pop()
