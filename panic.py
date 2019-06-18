@@ -20,6 +20,6 @@
 # new_phrase = ''.join(plist)
 # print(plist)
 # print(new_phrase)
-
-myList = [1,2,3,4,5]
+myNums = 12345
+myList = list(myNums)
 print(myList[1])
