@@ -2,10 +2,10 @@
 # Date:             June 17, 2019
 # Description:      Python program
 
-phrase = "Don't panic!"
-plist = list(phrase)
-print(phrase)
-print(plist)
+# phrase = "Don't panic!"
+# plist = list(phrase)
+# print(phrase)
+# print(plist)
 # what prints
 # ['D', 'o', 'n', "'", 't', ' ', 'p', 'a', 'n', 'i', 'c', '!']
 # convert to "on tap"
