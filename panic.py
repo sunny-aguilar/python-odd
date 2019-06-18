@@ -23,4 +23,4 @@
 myName = "Sandro Aguilar lives in Roseville"
 myList = list(myName)
 
-print(''.join(myList[0:6]))
+print(''.join(myList[-9]))
