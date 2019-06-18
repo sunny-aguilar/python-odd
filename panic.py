@@ -22,4 +22,4 @@
 # print(new_phrase)
 myName = "sandro"
 myList = list(myName)
-print(myList)
+print(myList[0:6:1])
