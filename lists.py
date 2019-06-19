@@ -1,7 +1,8 @@
-first = "sandro "
+first = "sandro"
 last = "aguilar"
 myString = f"hello, {first} {last}"
 
 print(myString.title())
 
-print(first.rstrip())
+paddedWord = "strip right   "
+print(paddedWord.rstrip())
