@@ -24,3 +24,5 @@ locations = ["egypt", "greece", "cancun", "japan", "china"]
 print(locations)
 print(sorted(locations))
 print(locations)
+locations.reverse()
+print(locations)
