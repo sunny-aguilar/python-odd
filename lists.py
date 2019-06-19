@@ -17,4 +17,4 @@ cars.reverse()
 print(cars)
 
 # list length
-
+print(len(cars))
