@@ -20,4 +20,5 @@ print(cars)
 print(len(cars))
 
 # vacation spots
-
+locations = ["cancun", "greece", "egypt", "china", "japan"]
+print(locations)
