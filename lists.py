@@ -1,8 +1,7 @@
-first = "Sandro "
+first = "sandro "
 last = "aguilar"
-myString = f"Hell"
+myString = f"hello, {first} {last}"
 
-print(f"Hello, {first} {last}")
+print(myString.title())
 
-first.rstrip()
 print(first.rstrip())
