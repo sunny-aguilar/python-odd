@@ -7,5 +7,6 @@ print(myString.title())
 paddedWord = "strip right   "
 print(paddedWord.rstrip())
 
-
+# sort a list
+cars = ["audit", "bmw", "chevy", "ford", "toyota"]
 
