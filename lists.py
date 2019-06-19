@@ -20,7 +20,7 @@ print(cars)
 print(len(cars))
 
 # vacation spots
-locations = ["cancun", "greece", "egypt", "china", "japan"]
+locations = ["egypt", "greece", "cancun", "japan", "china"]
 print(locations)
 locations.sort()
 print(locations)
