@@ -11,3 +11,5 @@ print(paddedWord.rstrip())
 cars = ["toyota", "chevy", "bmw", "ford", "audit"]
 cars.sort()
 print(cars)
+
+# reverse a list
