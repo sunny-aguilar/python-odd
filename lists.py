@@ -23,3 +23,4 @@ print(len(cars))
 locations = ["egypt", "greece", "cancun", "japan", "china"]
 print(locations)
 print(sorted(locations))
+print(locations)
