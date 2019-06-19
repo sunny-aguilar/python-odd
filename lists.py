@@ -18,3 +18,6 @@ print(cars)
 
 # list length
 print(len(cars))
+
+# vacation spots
+
