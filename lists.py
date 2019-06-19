@@ -8,6 +8,6 @@ paddedWord = "strip right   "
 print(paddedWord.rstrip())
 
 # sort a list
-cars = ["toyota", "chevy", "audit", "bmw", "ford"]
+cars = ["toyota", "chevy", "bmw", "ford", "audit"]
 cars.sort()
 print(cars)
