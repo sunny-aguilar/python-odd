@@ -38,3 +38,4 @@ print("\n")
 # looping through a list
 for i in access:
     print(i)
+print("\n")
