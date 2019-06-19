@@ -31,5 +31,5 @@ print(locations)
 print("\n")
 
 # out of bounds access
-access = [1,2,3,4,5]
+access = [1, 2, 3, 4, 5]
 
