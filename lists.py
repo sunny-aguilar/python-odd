@@ -40,6 +40,20 @@ for i in access:
     print(i)
 print("\n")
 
-actors = ["Bradd", "Keanu", "Ripley"]
+actors = ["brad", "keanu", "ripley"]
 for actor in actors:
-    print(f"{actor}, you did great!")
+    print(f"{actor.title()}, you did great!")
+print("\n")
+
+# range loops
+for i in range(1, 6):
+    print(i)
+
+# create a list of numbers using range
+numbers = list(range(20))
+print(numbers)
+
+
+
+
+
