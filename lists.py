@@ -22,5 +22,4 @@ print(len(cars))
 # vacation spots
 locations = ["egypt", "greece", "cancun", "japan", "china"]
 print(locations)
-locations.sort()
-print(locations)
+print(sorted(locations))
