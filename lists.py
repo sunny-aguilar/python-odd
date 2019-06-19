@@ -33,3 +33,6 @@ print("\n")
 # out of bounds access
 access = [1, 2, 3, 4, 5]
 print(access[4])
+
+# looping through a list
+
