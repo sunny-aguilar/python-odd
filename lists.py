@@ -9,4 +9,5 @@ print(paddedWord.rstrip())
 
 # sort a list
 cars = ["audit", "bmw", "chevy", "ford", "toyota"]
-
+cars.sort()
+p
