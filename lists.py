@@ -40,4 +40,6 @@ for i in access:
     print(i)
 print("\n")
 
-actors = ["bradd", "Keanu", "Ripley"]
+actors = ["Bradd", "Keanu", "Ripley"]
+for actor in actors:
+    print(f"{actor}, you did great!")
