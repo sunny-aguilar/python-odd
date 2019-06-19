@@ -6,3 +6,6 @@ print(myString.title())
 
 paddedWord = "strip right   "
 print(paddedWord.rstrip())
+
+
+
