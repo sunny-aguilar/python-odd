@@ -17,5 +17,6 @@
 #     counter += 1
 
 # while loops to keep program running
+message = ""
 
 
