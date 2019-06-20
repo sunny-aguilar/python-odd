@@ -43,4 +43,8 @@ for key in user.keys():
     print(key.title())
 print('\n')
 
+# not in key
+if 'attitude' not in user.keys():
+    print("Nice attitude Sandro!")
+
 
