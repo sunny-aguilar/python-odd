@@ -19,6 +19,7 @@ alien['age'] = 20
 alien['name'] = "Bob"
 alien['speed'] = "fast"
 print(alien)
-
+del alien['speed']
+print(alien)
 
 
