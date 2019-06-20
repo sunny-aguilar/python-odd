@@ -6,8 +6,8 @@ for i in cars:
         print(i.title())
 
 # user input
-myVal = input("Enter a value: ")
-print(myVal)
+# myVal = input("Enter a value: ")
+# print(myVal)
 
 aVal = 20
 if aVal < 50 and aVal > 10:
