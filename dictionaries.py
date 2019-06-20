@@ -30,6 +30,7 @@ user = {
     'username': "vluedevil",
     'first': 'sandro',
     'last': 'aguilar',
+    'age': 37,
 }
 
 for key in user.items():
