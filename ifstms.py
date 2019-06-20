@@ -29,4 +29,5 @@ else:
 available_toppings = ["cheese", "olives", "pepperoni", "green peppers"]
 requested_toppings = ["cheese", "french fries", "pepperoni"]
 for toppings in requested_toppings:
+    if toppings in available_toppings:
 
