@@ -50,7 +50,7 @@ print('\n')
 
 # .values() method
 for values in user.values():
-    print(values)
+    print(values.title())
 print('\n')
 
 
