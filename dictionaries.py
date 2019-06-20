@@ -25,7 +25,7 @@ print(alien)
 points = alien.get('points', "no points have been set")
 print(points, '\n')
 
-# looping through dictionary
+# .items() looping through dictionary
 user = {
     'username': "vluedevil",
     'first': 'sandro',
@@ -38,6 +38,6 @@ for key, value in user.items():
     print(f"Value: {value}")
 
 
-
+# .keys() method
 
 
