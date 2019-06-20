@@ -25,4 +25,4 @@ elif kidAge < 18:
 else:
     print("adult price is $30")
 
-
+# using two lists with if statements
