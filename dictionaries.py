@@ -16,4 +16,4 @@ print(alien_0)
 # empty dictionary
 alien = {}
 alien['age'] = 20
-print("Alien age: ", alien['age'])
+print(alien)
