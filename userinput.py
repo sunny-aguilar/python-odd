@@ -17,6 +17,9 @@
 #     counter += 1
 
 # while loops to keep program running
+prompt = "Enter a message or enter quit to quit: "
 message = ""
-
+while message != "quit":
+    message = input(prompt)
+    print(message)
 
