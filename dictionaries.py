@@ -14,4 +14,4 @@ alien_0['name'] = 'Bob'
 print(alien_0)
 
 # empty dictionary
-
+alien = {}
