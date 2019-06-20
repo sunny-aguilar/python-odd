@@ -22,6 +22,7 @@ print(alien)
 del alien['speed']
 print(alien)
 
+points = alien.get('points', "no points have been set")
 
 
 
