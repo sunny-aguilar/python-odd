@@ -24,3 +24,5 @@ elif kidAge < 18:
     print("teenager price is $20")
 else:
     print("adult price is $30")
+
+
