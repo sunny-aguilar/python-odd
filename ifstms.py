@@ -17,4 +17,10 @@ toppings = ["cheese", "pepperoni", "anchovies"]
 if "cheese" in toppings:
     print("topping is in pizza")
 
-
+kidAge = 17
+if kidAge < 4:
+    print("kids are free")
+elif kidAge < 18:
+    print("teenager price is $20")
+else:
+    print("adult price is $30")
