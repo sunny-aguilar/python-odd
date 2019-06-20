@@ -46,5 +46,8 @@ print('\n')
 # not in key
 if 'attitude' not in user.keys():
     print("Nice attitude Sandro!")
+print('\n')
 
-
+# .values() method
+for values in user.values():
+    print(values)
