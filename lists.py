@@ -50,8 +50,22 @@ for i in range(1, 6):
     print(i)
 
 # create a list of numbers using range
-numbers = list(range(20))
+numbers = list(range(0, 20))
 print(numbers)
+
+numbers = list(range(0, 201, 20))
+print(numbers)
+
+square = []
+for i in range(11):
+    square.append(i ** 2)
+
+print(square)
+
+# list comprehension
+squares = [value**2 for value in range(1, 6)]
+print(squares)
+
 
 
 
