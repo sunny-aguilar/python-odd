@@ -8,4 +8,6 @@ for i in cars:
 myVal = input("Enter a value: ")
 print(myVal)
 
-
+aVal = 20
+if aVal < 50 and aVal > 10:
+    print("val is 20")
