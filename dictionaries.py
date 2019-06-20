@@ -33,6 +33,7 @@ user = {
     'age': 37,
 }
 
-for key in user.items():
-    print(key)
+for key, value in user.items():
+    print(f"\nkey: {key}")
+
 
