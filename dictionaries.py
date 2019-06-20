@@ -25,6 +25,10 @@ print(alien)
 points = alien.get('points', "no points have been set")
 print(points)
 
-
+user = {
+    'username': "vluedevil",
+    'first': 'sandro',
+    'last': 'aguilar'
+}
 
 
