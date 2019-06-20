@@ -1,8 +1,10 @@
 # user input practice
 
 # simple user input
-message = input("Tell me some and I will repeat it back: ")
-print(message)
+name = input("What is your name? ")
+print(f"Hello {name}!")
+
+#
 
 
 
