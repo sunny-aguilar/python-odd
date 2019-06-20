@@ -23,7 +23,8 @@ del alien['speed']
 print(alien)
 
 points = alien.get('points', "no points have been set")
-print(points)
+print(points, '\n')
+
 
 user = {
     'username': "vluedevil",
@@ -31,5 +32,6 @@ user = {
     'last': 'aguilar',
 }
 
-
+for key in user.items():
+    print(key)
 
