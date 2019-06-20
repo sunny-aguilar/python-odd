@@ -4,4 +4,4 @@ alien_0 = {
 }
 
 print(alien_0['color'])
-print()
+print(alien_0['points'])
