@@ -41,6 +41,6 @@ print('\n')
 # .keys() method
 for key in user.keys():
     print(key.title())
-
+print('\n')
 
 
