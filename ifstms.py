@@ -5,7 +5,7 @@ for i in cars:
     else:
         print(i.title())
 
-
+# user input
 myVal = input("Enter a value: ")
 print(myVal)
 
