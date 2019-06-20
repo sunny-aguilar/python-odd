@@ -4,3 +4,6 @@ for i in cars:
         print("BMW")
     else:
         print(i.title())
+
+myVal = input("Enter a value: ")
+print(myVal)
