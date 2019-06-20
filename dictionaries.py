@@ -36,8 +36,9 @@ user = {
 for key, value in user.items():
     print(f"\nkey: {key}")
     print(f"Value: {value}")
-
+print('\n')
 
 # .keys() method
-
+for key in user.keys():
+    print(key.title())
 
