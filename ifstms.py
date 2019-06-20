@@ -26,3 +26,4 @@ else:
     print("adult price is $30")
 
 # using two lists with if statements
+available_toppings = ["cheese", "olives"]
