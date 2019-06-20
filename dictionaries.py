@@ -1,1 +1,1 @@
-alien_0 = {}
+alien_0 = {'color':'green'}
