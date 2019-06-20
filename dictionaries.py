@@ -16,6 +16,8 @@ print(alien_0)
 # empty dictionary
 alien = {}
 alien['age'] = 20
+alien['name'] = "Bob"
+alien['speed'] = "fast"
 print(alien)
 
 
