@@ -21,6 +21,6 @@ prompt = "Enter a message or enter quit to quit: "
 message = ""
 while message != "quit":
     message = input(prompt)
-
-    print(message)
+    if message != "quit":
+        print(message)
 
