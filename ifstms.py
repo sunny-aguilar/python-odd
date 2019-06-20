@@ -27,3 +27,4 @@ else:
 
 # using two lists with if statements
 available_toppings = ["cheese", "olives", "pepperoni", "green peppers"]
+requested_toppings = []
