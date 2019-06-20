@@ -28,7 +28,7 @@ print(points)
 user = {
     'username': "vluedevil",
     'first': 'sandro',
-    'last': 'aguilar'
+    'last': 'aguilar',
 }
 
 
