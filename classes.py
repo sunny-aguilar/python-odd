@@ -55,7 +55,7 @@ class Car:
 myCar = Car('vw', 'jetta')
 print(myCar.carType())
 myCar.setOdometer(55)
-pri
+print(myCar.getMiles())
 
 
 
