@@ -67,7 +67,9 @@ class ElectricCar(Car):
         super().__init__(make, model, year)
         self.battery = 75
 
-    def describe_battery
+    def describe_battery(self):
+        """ print a statement describing battery """
+        print(f"This car has a {self.battery}-kWh battery.")
 
 
 my_tesla = ElectricCar('tesla', 'model s', 2019)
