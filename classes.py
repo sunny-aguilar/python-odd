@@ -37,9 +37,10 @@ print('\n')
 
 # car class
 class Car:
-    def __init__(self, brand, model):
-        self.brand = brand
+    def __init__(self, make, model, year):
+        self.make = make
         self.model = model
+        self.year = year
         self.odometer = 0
 
     def setOdometer(self, miles):
@@ -52,16 +53,15 @@ class Car:
         return self.odometer
 
     def carType(self):
-        message = f"{self.brand}, {self.model}, {self.odometer} miles"
+        message = f"{self.make}, {self.model}, {self.odometer} miles"
         return message
 
-myCar = Car('vw', 'jetta')
-print(myCar.carType())
-myCar.setOdometer(55)
-print(myCar.getMiles())
-myCar.setOdometer(25)
-print(myCar.getMiles())
 
+class ElectricCar(Car):
+    """ electric version of car class """
+    def __init__(self, make, model, year):
+        super.__init__(make, model, year)
 
+my_tesla = ElectricCar('tesla', 'model s')
 
 
