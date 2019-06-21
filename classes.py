@@ -37,10 +37,12 @@ print('\n')
 
 
 """ import car class """
-from car import ElectricCar
+#from car import ElectricCar
+
+import car
 
 
-my_tesla = ElectricCar('tesla', 'model s', 2019)
+my_tesla = car.ElectricCar('tesla', 'model s', 2019)
 print(my_tesla.descriptive_name())
 my_tesla.battery.describe_battery()
 my_tesla.fill_tank()
