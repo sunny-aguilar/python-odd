@@ -43,7 +43,10 @@ class Car:
         self.odometer = 0
 
     def setOdometer(self, miles):
-        self.odometer = miles
+        if miles > self.odometer:
+            self.odometer = miles
+        else:
+            print("error setting mileage")
 
     def getMiles(self):
         return self.odometer
@@ -56,7 +59,8 @@ myCar = Car('vw', 'jetta')
 print(myCar.carType())
 myCar.setOdometer(55)
 print(myCar.getMiles())
-
+myCar.setOdometer(25)
+print(myCar.getMiles())
 
 
 
