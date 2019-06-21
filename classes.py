@@ -37,7 +37,8 @@ print('\n')
 
 
 """ import car class """
-#from car import ElectricCar
+from car import Car
+from electric_car import ElectricCar
 
 import car
 
