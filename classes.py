@@ -1,12 +1,12 @@
 # classes
 class Restaurant:
-    def __init__(self, name, type):
+    def __init__(self, name, cuisine):
         self.name = name
-        self.type = type
+        self.cuisine = cuisine
 
     def describe_restaurant(self):
         print(f"Restarant name: {self.name}")
-        print(f"Cuisine type: {self.type}")
+        print(f"Cuisine type: {self.cuisine}")
 
     def open_restaurant(self):
         print(f"{self.name} is open for business")
@@ -15,12 +15,13 @@ class Restaurant:
 my_restaurant = Restaurant("Pizza Hut", "Pizza")
 my_restaurant.describe_restaurant()
 my_restaurant.open_restaurant()
+print('\n')
 
 # dog class
 class Dog:
-    def __init__(self, name, type):
+    def __init__(self, name, breed):
         self.name = name
-        self.type = type
+        self.breed = breed
 
     def bark(self):
         print("Bark bark bark!")
@@ -29,3 +30,6 @@ class Dog:
         print(f"{self.name} is rolling over")
 
 
+my_dog = Dog("Moemoe", "Terrier")
+my_dog.bark()
+my_dog.roll_over()
