@@ -36,6 +36,8 @@ my_dog.roll_over()
 print('\n')
 
 
+""" import car class """
+from car import Car
 
 # battery class
 class Battery():
