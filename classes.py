@@ -37,9 +37,18 @@ print('\n')
 
 # car class
 class Car:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+        self.odometer = 0
 
+    def setOdometer(self, miles):
+        self.odometer = miles
 
+    def getMiles(self):
+        return self.odometer
 
+myCar = Car('vw', 'jetta')
 
 
 
