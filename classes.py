@@ -56,12 +56,17 @@ class Car:
         message = f"{self.make}, {self.model}, {self.odometer} miles"
         return message
 
+    def descriptive_name(self):
+        name = f"{self.make} {self.model}"
+        return name.title()
+
 
 class ElectricCar(Car):
     """ electric version of car class """
     def __init__(self, make, model, year):
-        super.__init__(make, model, year)
+        super().__init__(make, model, year)
 
 my_tesla = ElectricCar('tesla', 'model s', 2019)
+print(my_tesla.descriptive_name())
 
 
