@@ -60,6 +60,9 @@ class Car:
         name = f"{self.make} {self.model}"
         return name.title()
 
+    def fill_tank(self):
+        print("Filling gas tank")
+
 
 class ElectricCar(Car):
     """ electric version of car class """
