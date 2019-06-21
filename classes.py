@@ -48,7 +48,14 @@ class Car:
     def getMiles(self):
         return self.odometer
 
+    def carType(self):
+        message = f"{self.brand}, {self.model}, {self.odometer} miles"
+        return message
+
 myCar = Car('vw', 'jetta')
+print(myCar.carType())
+myCar.setOdometer(55)
+pri
 
 
 
