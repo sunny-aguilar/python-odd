@@ -1,5 +1,5 @@
 """ classes to represent an electric car """
-
+from car import Car
 
 # battery class
 class Battery():
