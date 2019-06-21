@@ -37,7 +37,7 @@ print('\n')
 
 
 """ import car class """
-from car import Car, ElectricCar, Battery
+from car import ElectricCar
 
 
 my_tesla = ElectricCar('tesla', 'model s', 2019)
