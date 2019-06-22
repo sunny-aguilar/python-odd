@@ -16,5 +16,5 @@ pi_string = ''
 for line in mylist:
     pi_string += line.strip()
 
-
+birthday = input('Enter your bday in mmddyy format: ')
 
