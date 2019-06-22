@@ -15,3 +15,6 @@ with open('pi_million_digits.txt') as file_object:
 pi_string = ''
 for line in mylist:
     pi_string += line.strip()
+
+
+
