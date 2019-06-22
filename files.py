@@ -17,4 +17,7 @@ for line in mylist:
     pi_string += line.strip()
 
 birthday = input('Enter your bday in mmddyy format: ')
+if birthday in pi_string:
+    print('Your birthday is in pi!')
+
 
