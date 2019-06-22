@@ -31,5 +31,6 @@ print(mylist)
 
 
 # try/except blocks
-
-
+try:
+    print(5/0)
+except
