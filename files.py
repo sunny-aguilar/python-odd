@@ -29,3 +29,7 @@ print(mylist)
 #     file_object.write('I love programming!\n')
 #     file_object.write('I like creating games')
 
+
+# try/except blocks
+
+
