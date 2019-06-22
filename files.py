@@ -26,4 +26,4 @@ print(mylist)
 # writing to a file
 filename = 'programming.txt'
 with open(filename, 'w') as object_file:
-    file_object.write()
+    file_object.write('')
