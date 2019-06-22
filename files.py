@@ -37,6 +37,8 @@ except ZeroDivisionError:
     print("Cannot divide by zero")
 
 
+# count characters in file
+
 
 
 
