@@ -19,5 +19,7 @@ for line in mylist:
 birthday = input('Enter your bday in mmddyy format: ')
 if birthday in pi_string:
     print('Your birthday is in pi!')
+else:
+    print('Your bday is not in pi :(')
 
 
