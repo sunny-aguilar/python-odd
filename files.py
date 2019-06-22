@@ -9,6 +9,7 @@ with open('pi_digits.txt') as file_object:
 
 print(mylist)
 
+# checking if bday is in pi
 with open('pi_million_digits.txt') as file_object:
     mylist = file_object.readlines()
 
