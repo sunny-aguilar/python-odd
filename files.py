@@ -25,5 +25,5 @@ print(mylist)
 
 # writing to a file
 filename = 'programming.txt'
-with open() as object_file:
+with open(filename) as object_file:
     file_object.write()
