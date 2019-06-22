@@ -42,6 +42,8 @@ filename = "programming.txt"
 with open(filename) as filename:
     contents = filename.read()
 
-
+chars = contents.split('')
+char_length = len(chars)
+print(char_length)
 
 
