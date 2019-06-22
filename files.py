@@ -24,8 +24,8 @@ print(mylist)
 #     print('Your bday is not in pi :(')
 
 # writing to a file
-filename = 'programming.txt'
-with open(filename, 'w') as file_object:
-    file_object.write('I love programming!')
-    file_object.write('')
+# filename = 'programming.txt'
+# with open(filename, 'w') as file_object:
+#     file_object.write('I love programming!\n')
+#     file_object.write('I like creating games')
 
