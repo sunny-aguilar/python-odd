@@ -1,13 +1,13 @@
 """files and exceptions"""
 
-with open('pi_digits.txt') as file_object:
-    contents = file_object.read()
-print(contents)
-
-with open('pi_digits.txt') as file_object:
-    mylist = file_object.readlines()
-
-print(mylist)
+# with open('pi_digits.txt') as file_object:
+#     contents = file_object.read()
+# print(contents)
+#
+# with open('pi_digits.txt') as file_object:
+#     mylist = file_object.readlines()
+#
+# print(mylist)
 
 # checking if bday is in pi
 # with open('pi_million_digits.txt') as file_object:
@@ -31,18 +31,18 @@ print(mylist)
 
 
 # try/except blocks
-try:
-    print(5/0)
-except ZeroDivisionError:
-    print("Cannot divide by zero")
+# try:
+#     print(5/0)
+# except ZeroDivisionError:
+#     print("Cannot divide by zero")
 
 
 # count characters in file
-filename = "programming.txt"
+filename = "pi_million_digits.txt"
 with open(filename) as filename:
     contents = filename.read()
 
-chars = contents.split('')
+chars = list(contents)
 char_length = len(chars)
 print(char_length)
 
