@@ -10,18 +10,20 @@ with open('pi_digits.txt') as file_object:
 print(mylist)
 
 # checking if bday is in pi
-with open('pi_million_digits.txt') as file_object:
-    mylist = file_object.readlines()
-
-pi_string = ''
-for line in mylist:
-    pi_string += line.strip()
-
-birthday = input('Enter your bday in mmddyy format: ')
-if birthday in pi_string:
-    print('Your birthday is in pi!')
-else:
-    print('Your bday is not in pi :(')
+# with open('pi_million_digits.txt') as file_object:
+#     mylist = file_object.readlines()
+#
+# pi_string = ''
+# for line in mylist:
+#     pi_string += line.strip()
+#
+# birthday = input('Enter your bday in mmddyy format: ')
+# if birthday in pi_string:
+#     print('Your birthday is in pi!')
+# else:
+#     print('Your bday is not in pi :(')
 
 # writing to a file
-
+filename =
+with open() as object_file:
+    file_object.write()
