@@ -38,12 +38,30 @@
 
 
 # count characters in file
-filename = "pi_million_digits.txt"
-with open(filename) as filename:
-    contents = filename.read()
+# filename = "pi_million_digits.txt"
+# with open(filename) as filename:
+#     contents = filename.read()
+#
+# chars = list(contents)
+# char_length = len(chars)
+# print(char_length)
 
-chars = list(contents)
-char_length = len(chars)
-print(char_length)
 
+"""json data"""
+import json
 
+numbers = {
+    'first': 'sandro',
+    'last': 'aguilar',
+    'age': 37,
+}
+
+filename = 'numbers.json'
+with open(filename, 'w') as f:
+    json.dump(numbers, f)
+
+filename = 'numbers.json'
+with open(filename) as f:
+    numbers = json.load(f)
+
+print(numbers)
