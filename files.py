@@ -5,6 +5,6 @@ with open('pi_digits.txt') as file_object:
 print(contents)
 
 with open('pi_digits.txt') as file_object:
-    lylist = file_object.readlines()
+    mylist = file_object.readlines()
 
-
+print(mylist)
