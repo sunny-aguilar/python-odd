@@ -38,7 +38,8 @@ except ZeroDivisionError:
 
 
 # count characters in file
-
+filename = "programming.txt"
+with open(filename) as filename:
 
 
 
