@@ -5,4 +5,4 @@ print(x(5, 6))
 def myFunction(n):
     return lambda a : a * n
 
-myDoubler
+myDoubler = myFunction(2)
