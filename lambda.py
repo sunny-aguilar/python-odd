@@ -9,4 +9,4 @@ myDoubler = myFunction(2)
 print(myDoubler(11))
 
 # another lambda function
-
+a = lambda x:
