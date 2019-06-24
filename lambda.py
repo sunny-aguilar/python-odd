@@ -7,7 +7,7 @@ def myFunction(n):
 
 myDoubler = myFunction(2)
 print(myDoubler(11))
-
+print('/n')
 
 # another lambda function
 a = lambda x: x
