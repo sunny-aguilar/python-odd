@@ -11,4 +11,4 @@ print('/n')
 
 # another lambda function
 a = lambda a, b: b + c
-print(a(10,, 5))
+print(a(10, 5))
