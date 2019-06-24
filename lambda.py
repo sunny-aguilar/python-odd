@@ -8,4 +8,4 @@ def myFunction(n):
 myDoubler = myFunction(2)
 print(myDoubler(11))
 
-# anothewr lambda function
+# another lambda function
