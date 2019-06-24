@@ -10,5 +10,5 @@ print(myDoubler(11))
 print('/n')
 
 # another lambda function
-a = lambda x: x
+a = lambda b: b
 print(a(10))
