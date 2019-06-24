@@ -8,5 +8,7 @@ def myFunction(n):
 myDoubler = myFunction(2)
 print(myDoubler(11))
 
+
 # another lambda function
-a = lambda x:
+a = lambda x: x
+print(a(10))
