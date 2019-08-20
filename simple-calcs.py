@@ -8,5 +8,5 @@ print(1,2,3,4,5,sep='*')
 
 print(format(232.1482224, '9,.2f'))
 
-if 'Sandro'
+if 'Sandro' is 'Sandro'
 
