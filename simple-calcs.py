@@ -16,6 +16,6 @@ if 5 > 2:
 
 
 x = input('Enter a number for x')
-y = input()
+y = input('Enter a number for y')
 
 
