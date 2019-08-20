@@ -12,4 +12,4 @@ if 'Sandro' is 'Sandro':
     print('equivalent')
 
 if 5 > 2:
-    print()
+    print('yay!')
