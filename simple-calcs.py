@@ -15,8 +15,8 @@ if 5 > 2:
     print('yay!')
 
 
-x = input('Enter a number for x')
-y = input('Enter a number for y')
+x = input('Enter a number for x: ')
+y = input('Enter a number for y: ')
 
 if x > y:
     print('X is greater')
