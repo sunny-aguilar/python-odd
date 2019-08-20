@@ -6,7 +6,7 @@ print(age)
 
 print(1,2,3,4,5,sep='*')
 
-print(format(232.1482224, '0,.2f'))
+print(format(232.1482224, '9,.2f'))
 
 
 
