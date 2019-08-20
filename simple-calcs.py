@@ -23,4 +23,5 @@ if x > y:
 elif x < y:
     print('Y is greater')
 else:
+    print()
 
