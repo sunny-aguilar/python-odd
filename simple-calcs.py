@@ -27,3 +27,4 @@ else:
 
 if 10 == 10 and 1 == 1:
     print('They are both equal')
+    
