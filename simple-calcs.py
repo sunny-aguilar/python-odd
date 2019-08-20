@@ -29,4 +29,4 @@ if 10 == 10 and 1 == 1:
     print('They are both equal')
 
 if 2 is 2 and 3 is 3:
-    pri
+    print('Both are equal')
