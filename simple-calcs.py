@@ -21,5 +21,5 @@ y = input('Enter a number for y')
 if x > y:
     print('X is greater')
 elif x < y:
-    
+    print('Y is greater')
 
