@@ -30,3 +30,6 @@ if 10 == 10 and 1 == 1:
 
 if 2 is 2 and 3 is 3:
     print('Both are equal')
+
+x = 10
+while x > 0:
