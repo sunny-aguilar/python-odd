@@ -15,6 +15,6 @@ if 5 > 2:
     print('yay!')
 
 
-x = input()
+x = input('Enter a number for x')
 
 
