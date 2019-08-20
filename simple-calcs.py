@@ -26,4 +26,4 @@ else:
     print('X and Y are equal to each other')
 
 if 10 == 10 and 1 == 1:
-    print('T')
+    print('They are both equal')
