@@ -34,3 +34,4 @@ if 2 is 2 and 3 is 3:
 x = 10
 while x > 0:
     print(x, ' is the current value.')
+    x = x - 1
