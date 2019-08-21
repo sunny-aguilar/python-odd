@@ -15,21 +15,21 @@ if 5 > 2:
     print('yay!')
 
 
-#x = input('Enter a number for x: ')
-#y = input('Enter a number for y: ')
-
-if x > y:
-    print('X is greater')
-elif x < y:
-    print('Y is greater')
-else:
-    print('X and Y are equal to each other')
-
-if 10 == 10 and 1 == 1:
-    print('They are both equal')
-
-if 2 is 2 and 3 is 3:
-    print('Both are equal')
+# #x = input('Enter a number for x: ')
+# #y = input('Enter a number for y: ')
+#
+# if x > y:
+#     print('X is greater')
+# elif x < y:
+#     print('Y is greater')
+# else:
+#     print('X and Y are equal to each other')
+#
+# if 10 == 10 and 1 == 1:
+#     print('They are both equal')
+#
+# if 2 is 2 and 3 is 3:
+#     print('Both are equal')
 
 x = 10
 while x > 0:
@@ -38,3 +38,5 @@ while x > 0:
 
 if 'a' < 'b':
     print('a is less than b')
+
+
