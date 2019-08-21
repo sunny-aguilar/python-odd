@@ -40,3 +40,5 @@ if 'a' < 'b':
     print('a is less than b')
 
 
+if 100 > 0 and 22 < 1000:
+    print('that is correct!')
