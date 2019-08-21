@@ -31,10 +31,10 @@ if 5 > 2:
 # if 2 is 2 and 3 is 3:
 #     print('Both are equal')
 
-x = 10
-while x > 0:
-    print(x, ' is the current value.')
-    x = x - 1
+# x = 10
+# while x > 0:
+#     print(x, ' is the current value.')
+#     x = x - 1
 
 if 'a' < 'b':
     print('a is less than b')
@@ -42,4 +42,3 @@ if 'a' < 'b':
 
 if 100 > 0 and 22 < 1000:
     print('that is correct!')
-    
