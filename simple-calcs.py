@@ -38,7 +38,7 @@
 
 sales_met = True
 
-if 'a' < 'b':
+if sales_met:
     print('a is less than b')
 
 
