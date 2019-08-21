@@ -42,3 +42,7 @@ if 'a' < 'b':
 
 if 100 > 0 and 22 < 1000:
     print('that is correct!')
+
+
+
+
