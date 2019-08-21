@@ -39,7 +39,7 @@
 sales_met = True
 
 if sales_met:
-    print('a is less than b')
+    print('sales quota has been met')
 
 
 if 100 > 0 and 22 < 1000:
