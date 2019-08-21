@@ -36,7 +36,7 @@
 #     print(x, ' is the current value.')
 #     x = x - 1
 
-
+sales_met = True
 
 if 'a' < 'b':
     print('a is less than b')
