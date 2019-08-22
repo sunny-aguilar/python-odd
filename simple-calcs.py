@@ -46,7 +46,7 @@
 #     print('that is correct!')
 #
 
-for x in [1, 2, 3, 4, 5]:
+for x in range(10, 2):
     x = x*x
     print(x)
 
