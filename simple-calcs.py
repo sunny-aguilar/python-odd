@@ -47,6 +47,7 @@
 #
 
 for row in range(8):
-    
+    for col in range(6):
+        
 
 
