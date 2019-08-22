@@ -46,7 +46,7 @@
 #     print('that is correct!')
 #
 
-for x in range(0, 12):
+for row in range(8):
     x += 1
     print(x)
 
