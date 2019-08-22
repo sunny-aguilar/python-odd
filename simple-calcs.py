@@ -47,7 +47,7 @@
 #
 
 for x in range(1, 12):
-
+    x += 1
     print(x)
 
 
