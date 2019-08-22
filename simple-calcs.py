@@ -46,7 +46,7 @@
 #     print('that is correct!')
 #
 
-for x in range(10, 2):
+for x in range(1, 10, 2):
     print(x)
 
 
