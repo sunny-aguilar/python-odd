@@ -36,15 +36,15 @@
 #     print(x, ' is the current value.')
 #     x = x - 1
 
-sales_met = True
-
-if sales_met:
-    print('sales quota has been met')
-
-
-if 100 > 0 and 22 < 1000:
-    print('that is correct!')
-
+# sales_met = True
+#
+# if sales_met:
+#     print('sales quota has been met')
+#
+#
+# if 100 > 0 and 22 < 1000:
+#     print('that is correct!')
+#
 
 
 
