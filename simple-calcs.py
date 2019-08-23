@@ -62,3 +62,4 @@ def createfile():
     infile.write('and some more text\n')
     infile.close()
 
+main()
