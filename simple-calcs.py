@@ -51,6 +51,6 @@
 #         print('*', end='')
 #     print()
 
-my_file = 'dateFile.txt'
+my_file = 'dataFile.txt'
 file_name = open(my_file, 'w')
 
