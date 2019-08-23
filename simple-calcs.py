@@ -54,6 +54,6 @@
 my_file = 'dataFile.txt'
 infile = open(my_file, 'w')
 infile.write('My first Python written text file\n')
-file_name.write('more text')
+infile.write('more text')
 file_name.close()
 
