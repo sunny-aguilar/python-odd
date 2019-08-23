@@ -53,6 +53,4 @@
 
 my_file = 'dataFile.txt'
 file_name = open(my_file, 'w')
-file_name.close()
-
 file_name.write('My first Python written text file')
