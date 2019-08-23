@@ -51,6 +51,6 @@
 #         print('*', end='')
 #     print()
 
-
+my_file = 'dateFile.txt'
 file_name = open()
 
