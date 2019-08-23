@@ -59,6 +59,6 @@ def createfile():
     infile = open(my_file, 'w')
     infile.write('My first Python written text file\n')
     infile.write('more text\n')
-    infile.write('and some more text\')
+    infile.write('and some more text\n')
     infile.close()
 
