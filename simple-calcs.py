@@ -52,5 +52,5 @@
 #     print()
 
 my_file = 'dateFile.txt'
-file_name = open()
+file_name = open(my_file)
 
