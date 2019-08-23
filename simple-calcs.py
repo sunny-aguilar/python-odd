@@ -52,9 +52,9 @@
 #     print()
 
 def main():
-    createFile()
+    createfile()
 
-def createFile():
+def createfile():
     my_file = 'dataFile.txt'
     infile = open(my_file, 'w')
     infile.write('My first Python written text file\n')
