@@ -51,3 +51,4 @@ for row in range(8):
         print('*', end='')
     print()
 
+
