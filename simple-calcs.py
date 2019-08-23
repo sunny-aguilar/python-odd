@@ -51,9 +51,13 @@
 #         print('*', end='')
 #     print()
 
-my_file = 'dataFile.txt'
-infile = open(my_file, 'w')
-infile.write('My first Python written text file\n')
-infile.write('more text\n')
-infile.close()
+def main():
+    createFile()
+
+def createFile():
+    my_file = 'dataFile.txt'
+    infile = open(my_file, 'w')
+    infile.write('My first Python written text file\n')
+    infile.write('more text\n')
+    infile.close()
 
