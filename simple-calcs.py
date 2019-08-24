@@ -54,5 +54,4 @@
 myList = [11, 12, 13, 14, 15]
 nameList = ['Sunny', 'Jese', 'Wesley']
 
-print(myList[0])
-print(nameList[0])
+
