@@ -91,4 +91,5 @@ print(mylist)
 mylist.append(5)
 print(mylist)
 mylist.insert(0, 100)
+print(mylist)
 
