@@ -129,3 +129,5 @@
 #
 # print(newName)
 
+myName = 'Sandro'
+
