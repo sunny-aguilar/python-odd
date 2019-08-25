@@ -72,5 +72,6 @@
 # for x in nameList:
 #     print(x)
 
+
 myList = ['Sunny'] * 5
 print(myList)
