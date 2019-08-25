@@ -78,11 +78,11 @@
 # listLength = len(myList)
 # print(listLength)
 
-mylist = ['a', 'b', 'c', 'd', 'e']
+# mylist = ['a', 'b', 'c', 'd', 'e']
 # print(mylist[:3])
 
-if 'z' in mylist:
-    print('value found')
-else:
-    print('value not found')
+# if 'z' in mylist:
+#     print('value found')
+# else:
+#     print('value not found')
 
