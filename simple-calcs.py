@@ -81,7 +81,7 @@
 mylist = ['a', 'b', 'c', 'd', 'e']
 # print(mylist[:3])
 
-if 'a' in mylist:
+if 'z' in mylist:
     print('value found')
 else:
     print('value not found')
