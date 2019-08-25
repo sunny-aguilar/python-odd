@@ -130,4 +130,6 @@
 # print(newName)
 
 myName = 'Sandro'
-
+for ch in myName:
+    if ch == 'S':
+        print('Character found')
