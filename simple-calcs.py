@@ -79,5 +79,5 @@
 # print(listLength)
 
 mylist = ['a', 'b', 'c', 'd', 'e']
-print(mylist[:])
+print(mylist[1:])
 
