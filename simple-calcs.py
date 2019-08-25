@@ -86,7 +86,7 @@
 # else:
 #     print('value not found')
 
-mylist = [1, 2, 3, 4]
+mylist = [4, 3, 8, 2, 1, 9, 0, 3, 5, 7]
 print(mylist)
 mylist.append(5)
 print(mylist)
