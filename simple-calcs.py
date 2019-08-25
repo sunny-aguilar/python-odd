@@ -94,4 +94,4 @@ mylist.insert(0, 100)
 print(mylist)
 mylist.sort()
 print(mylist)
-
+mylist.remove(100)
