@@ -96,3 +96,6 @@ mylist.sort()
 print(mylist)
 mylist.remove(100)
 print(mylist)
+
+mylistcopy = [] + mylist
+print(mylistcopy)
