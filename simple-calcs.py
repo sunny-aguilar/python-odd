@@ -75,3 +75,5 @@
 
 myList = ['Sunny'] * 5
 print(myList)
+listLength = len(myList)
+print(listLength)
