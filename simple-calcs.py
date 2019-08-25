@@ -131,5 +131,5 @@
 
 myName = 'Sandro Aguilar'
 for ch in myName:
-    if ch == 'a':
+    if ch == 'a' or ch == 'r':
         print('Character found')
