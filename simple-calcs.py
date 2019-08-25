@@ -86,19 +86,27 @@
 # else:
 #     print('value not found')
 
-mylist = [4, 3, 8, 2, 1, 9, 0, 6, 5, 7]
-print(mylist)
-mylist.append(11)
-print(mylist)
-mylist.insert(0, 100)
-print(mylist)
-mylist.sort()
-print(mylist)
-mylist.remove(100)
-print(mylist)
+# mylist = [4, 3, 8, 2, 1, 9, 0, 6, 5, 7]
+# print(mylist)
+# mylist.append(11)
+# print(mylist)
+# mylist.insert(0, 100)
+# print(mylist)
+# mylist.sort()
+# print(mylist)
+# mylist.remove(100)
+# print(mylist)
+#
+#
+# mylistcopy = [] + mylist
+# mylist.append(12)
+# print(mylist)
+# print(mylistcopy)
 
 
-mylistcopy = [] + mylist
-mylist.append(12)
-print(mylist)
-print(mylistcopy)
+matrix = [[0, 1, 2, 3], [4, 5, 6, 7], [6, 7, 8]]
+for r in range(3):
+    for c in range(3):
+        print(matrix[r][c])
+
+
