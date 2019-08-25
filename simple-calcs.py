@@ -97,5 +97,8 @@ print(mylist)
 mylist.remove(100)
 print(mylist)
 
+
 mylistcopy = [] + mylist
+mylist.append(12)
+print(mylist)
 print(mylistcopy)
