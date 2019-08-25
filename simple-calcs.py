@@ -52,23 +52,24 @@
 #     print()
 
 
-def main():
-    createfile()
+# def main():
+#     createfile()
+#
+# def createfile():
+#     my_file = 'dataFile.txt'
+#     infile = open(my_file, 'w')
+#     infile.write('My first Python written text file\n')
+#     infile.write('more text\n')
+#     infile.write('and some more text\n')
+#     infile.close()
+#
+# main()
+#
+#
+# myList = [11, 12, 13, 14, 15]
+# nameList = ['Sunny', 'Jese', 'Wesley']
+#
+# for x in nameList:
+#     print(x)
 
-def createfile():
-    my_file = 'dataFile.txt'
-    infile = open(my_file, 'w')
-    infile.write('My first Python written text file\n')
-    infile.write('more text\n')
-    infile.write('and some more text\n')
-    infile.close()
-
-main()
-
-
-myList = [11, 12, 13, 14, 15]
-nameList = ['Sunny', 'Jese', 'Wesley']
-
-for x in nameList:
-    print(x)
 

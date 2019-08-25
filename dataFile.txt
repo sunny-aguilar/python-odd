@@ -1,3 +1,0 @@
-My first Python written text file
-more text
-and some more text
