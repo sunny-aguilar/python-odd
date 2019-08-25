@@ -122,9 +122,9 @@
 #     for c in range(3):
 #         print(matrix[r][c], end='-')
 
-myName = 'Sandro'
-newName = ''
-for x in myName:
-    newName += x
-
-print(newName)
+# myName = 'Sandro'
+# newName = ''
+# for x in myName:
+#     newName += x
+#
+# print(newName)
