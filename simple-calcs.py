@@ -124,3 +124,4 @@
 
 myName = 'Sandro'
 for x in myName:
+    print(x)
