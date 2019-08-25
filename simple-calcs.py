@@ -122,4 +122,5 @@
 #     for c in range(3):
 #         print(matrix[r][c], end='-')
 
+myName = 'Sandro'
 
