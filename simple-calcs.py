@@ -124,6 +124,7 @@
 
 myName = 'Sandro'
 newName = ''
+print(newName)
 for x in myName:
     newName += x
 
