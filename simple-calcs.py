@@ -115,3 +115,9 @@ print()
 for r in range(3):
     for c in range(3):
         print(matrix[r][c], end=', ')
+
+print()
+
+for r in range(3):
+    for c in range(3):
+        print(matrix[r][c], end='-')
