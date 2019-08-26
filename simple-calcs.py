@@ -136,3 +136,4 @@
 
 
 myName = 'Sandro'
+print(myName.isdigit())
