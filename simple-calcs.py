@@ -137,3 +137,6 @@
 
 # myName = '1200'
 # print(myName.isdigit())
+
+
+# dictionaries
