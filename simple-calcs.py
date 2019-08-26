@@ -135,5 +135,5 @@
 #         print('Character found')
 
 
-myName = 'Sandro'
+myName = 444
 print(myName.isdigit())
