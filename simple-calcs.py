@@ -135,4 +135,4 @@
 #         print('Character found')
 
 
-
+myName = 'Sandro'
