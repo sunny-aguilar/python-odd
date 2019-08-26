@@ -152,5 +152,8 @@ phonebook = {
 # else:
 #     print("key not found")
 
-for x in phonebook:
-    print(phonebook[x])
+# for x in phonebook:
+#     print(phonebook[x])
+
+for x, y in phonebook.items():
+    print(x, y)
