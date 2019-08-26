@@ -141,10 +141,11 @@
 
 # dictionaries
 
-phonebook = {'Sunny': '916-735-6948', 'Wesley': '916-908-7266'}
-if 'Joe' in phonebook:
-    print(phonebook['Sunny'])
-else:
-    print("key not found")
+phonebook = {'Sunny': '916-735-6948', 'Wesley': '916-908-7266', 'Crystal': '622-888-8888'}
+# if 'Joe' in phonebook:
+#     print(phonebook['Sunny'])
+# else:
+#     print("key not found")
 
-    
+for x in phonebook:
+    print(phonebook[x])
