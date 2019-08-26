@@ -140,3 +140,5 @@
 
 
 # dictionaries
+
+phonebook = {'Sunny': '916-735-6948', 'Wesley': '916-908-7266'}
