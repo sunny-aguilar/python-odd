@@ -159,7 +159,8 @@ phonebook = {
 #     print(x, y)
 
 # or
-for key in phonebook:
-    print(key, phonebook[key])
+# for key in phonebook:
+#     print(key, phonebook[key])
 
-
+for key in phonebook.values():
+    print(key)
