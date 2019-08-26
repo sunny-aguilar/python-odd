@@ -79,11 +79,74 @@
 # print(listLength)
 
 # mylist = ['a', 'b', 'c', 'd', 'e']
-# print(mylist[1:3])
+# print(mylist[:3])
 
-myDict = {
-    'Sandro': 916-735-6948,
-    'Crystal': 623-225-6888,
-    'Jese': 530-908-7266
-}
 
+# if 'z' in mylist:
+#     print('value found')
+# else:
+#     print('value not found')
+
+# mylist = [4, 3, 8, 2, 1, 9, 0, 6, 5, 7]
+# print(mylist)
+# mylist.append(11)
+# print(mylist)
+# mylist.insert(0, 100)
+# print(mylist)
+# mylist.sort()
+# print(mylist)
+# mylist.remove(100)
+# print(mylist)
+#
+#
+# mylistcopy = [] + mylist
+# mylist.append(12)
+# print(mylist)
+# print(mylistcopy)
+
+
+# modifying print newline function
+# matrix = [[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]]
+# for r in range(3):
+#     for c in range(3):
+#         print(matrix[r][c], end=' ')
+#
+# print()
+#
+# for r in range(3):
+#     for c in range(3):
+#         print(matrix[r][c], end=', ')
+#
+# print()
+#
+# for r in range(3):
+#     for c in range(3):
+#         print(matrix[r][c], end='-')
+
+# myName = 'Sandro'
+# newName = ''
+# for x in myName:
+#     newName += x
+#
+# print(newName)
+
+# myName = 'Sandro Aguilar'
+# for ch in myName:
+#     if ch == 'a' or ch == 'r':
+#         print('Character found')
+
+
+# myName = '1200'
+# print(myName.isdigit())
+
+
+# dictionaries
+
+phonebook = {'Sunny': '916-735-6948', 'Wesley': '916-908-7266', 'Crystal': '622-888-8888'}
+# if 'Joe' in phonebook:
+#     print(phonebook['Sunny'])
+# else:
+#     print("key not found")
+
+for x in phonebook:
+    print(phonebook[x])
