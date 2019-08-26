@@ -159,4 +159,5 @@ for x, y in phonebook.items():
     print(x, y)
 
 # or
-
+for key in phonebook:
+    print(key, phonebook[key])
