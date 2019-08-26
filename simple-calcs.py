@@ -81,3 +81,9 @@
 # mylist = ['a', 'b', 'c', 'd', 'e']
 # print(mylist[1:3])
 
+myDict = {
+    'Sandro': 916-735-6948,
+    'Crystal': 623-225-6888,
+    'Jese': 530-908-7266
+}
+
