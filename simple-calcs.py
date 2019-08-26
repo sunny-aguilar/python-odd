@@ -135,5 +135,5 @@
 #         print('Character found')
 
 
-myName = '1200'
-print(myName.isdigit())
+# myName = '1200'
+# print(myName.isdigit())
