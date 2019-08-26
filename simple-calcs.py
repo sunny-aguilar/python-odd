@@ -162,7 +162,10 @@ phonebook = {
 # for key in phonebook:
 #     print(key, phonebook[key])
 
-for key in phonebook.values():
-    print(key)
+# for key in phonebook.values():
+#     print(key)
+
+phonebook.get(phonebook.get('Sunny', 'Value not found'))
+
 
 
