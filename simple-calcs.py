@@ -167,5 +167,9 @@ phonebook = {
 
 value = phonebook.get('Jack', 'Value not found')
 print(value)
-
+a = 1
+b = 3
+print(a, b)
+a, b = b, a
+print(a, b)
 
