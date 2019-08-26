@@ -157,3 +157,6 @@ phonebook = {
 
 for x, y in phonebook.items():
     print(x, y)
+
+# or
+
