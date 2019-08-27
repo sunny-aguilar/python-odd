@@ -178,6 +178,8 @@ class Sandro:
     def __init__(self):
         self.name = 'Sandro'
     def printName(self):
-        print(self.name)
+        print(self.name, ', you have just created a python class')
 
 
+myClass = Sandro()
+myClass.printName()
