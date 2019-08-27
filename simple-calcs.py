@@ -191,20 +191,23 @@
 # myClass.printName()
 
 
-import random
-
-class Coin:
-    def __init__(self):
-        self.__sideup = 'Heads'
-
-    def toss(self):
-        if random.randint(0, 1) == 0:
-            self.__sideup = 'Heads'
-        else:
-            self.__sideup = 'Tails'
-
-    def get_sideup(self):
-        return self.__sideup
 
 
 
+#importing a class
+import module
+
+# main program
+def main():
+    my_coin = module.Coin()
+    print('This side is up: ', my_coin.get_sideup())
+    print('I am tossing the coin ...')
+    my_coin.toss()
+    my_coin.__sideup = 'Heads'      # no longer works! its private now bitches
+
+    print('I am going to toss the coin ten times:')
+    for count in range(10):
+        my_coin.toss()
+        print(my_coin.get_sideup())
+
+main()
