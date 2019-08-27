@@ -184,6 +184,7 @@ class Sandro:
     def changeName(self):
         self.name = input('Enter a new name: ')
 
+
 myClass = Sandro()
 myClass.printName()
 myClass.changeName()
