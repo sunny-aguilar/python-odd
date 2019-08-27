@@ -207,13 +207,19 @@ def main():
     my_coin.toss()
     my_coin.__sideup = 'Heads'      # no longer works! its private now bitches
 
-    print('I am going to toss the coin ten times:')
-    for count in range(10):
-        my_coin.toss()
-        print(my_coin.get_sideup())
+    # print('I am going to toss the coin ten times:')
+    # for count in range(10):
+    #     my_coin.toss()
+    #     print(my_coin.get_sideup())
+    flip(my_coin)
 
     # __str__ method by passing an object to the
     # print function
     print(my_coin)
+
+
+def flip(coin_object):
+    coin_object.toss()
+
 
 main()

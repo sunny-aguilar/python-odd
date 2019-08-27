@@ -17,4 +17,8 @@ class Coin:
         return self.__sideup
 
     def __str__(self):
-        return 'The coin is currently ' + self.get_sideup() + ' up.', 'Value is ' + str(self.__value)
+        return 'The coin is currently ' + self.get_sideup() + ' up.'
+
+
+
+
