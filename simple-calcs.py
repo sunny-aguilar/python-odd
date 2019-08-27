@@ -208,4 +208,5 @@ class Coin:
 
 
 def main():
+    my_coin = Coin()
 
