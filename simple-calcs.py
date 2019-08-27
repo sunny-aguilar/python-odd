@@ -181,9 +181,12 @@ class Sandro:
     def printName(self):
         print(self.name, ', you have just created a python class')
 
-
+    def changeName(self):
+        self.name = input()
 
 myClass = Sandro()
+myClass.printName()
+myClass.changeName()
 myClass.printName()
 
 
