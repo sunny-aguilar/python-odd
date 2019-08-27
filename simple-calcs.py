@@ -182,7 +182,7 @@ class Sandro:
         print(self.name, ', you have just created a python class')
 
     def changeName(self):
-        self.name = input()
+        self.name = input('Enter a new name: ')
 
 myClass = Sandro()
 myClass.printName()
