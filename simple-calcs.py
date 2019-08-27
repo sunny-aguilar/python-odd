@@ -174,4 +174,10 @@ phonebook = {
 # print(a, b)
 
 
+class Sandro:
+    def __init__(self):
+        self.name = 'Sandro'
+    def printName(self):
+        print(self.name)
+
 
