@@ -174,21 +174,21 @@ phonebook = {
 # print(a, b)
 
 
-class Sandro:
-    def __init__(self):
-        self.name = 'Sandro'
-
-    def printName(self):
-        print(self.name, ', you have just created a python class')
-
-    def changeName(self):
-        self.name = input('Enter a new name: ')
-
-
-myClass = Sandro()
-myClass.printName()
-myClass.changeName()
-myClass.printName()
+# class Sandro:
+#     def __init__(self):
+#         self.name = 'Sandro'
+#
+#     def printName(self):
+#         print(self.name, ', you have just created a python class')
+#
+#     def changeName(self):
+#         self.name = input('Enter a new name: ')
+#
+#
+# myClass = Sandro()
+# myClass.printName()
+# myClass.changeName()
+# myClass.printName()
 
 
 
