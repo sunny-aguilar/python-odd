@@ -212,6 +212,6 @@ def main():
         my_coin.toss()
         print(my_coin.get_sideup())
 
-    print(my_coin.__str__())
+    print(my_coin)
 
 main()
