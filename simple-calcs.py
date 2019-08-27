@@ -212,6 +212,8 @@ def main():
         my_coin.toss()
         print(my_coin.get_sideup())
 
+    # __str__ method by passing an object to the
+    # print function
     print(my_coin)
 
 main()
