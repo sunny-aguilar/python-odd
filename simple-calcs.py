@@ -195,16 +195,16 @@ import random
 
 class Coin:
     def __init__(self):
-        self.sideup = 'Heads'
+        self.__sideup = 'Heads'
 
     def toss(self):
         if random.randint(0, 1) == 0:
-            self.sideup = 'Heads'
+            self.__sideup = 'Heads'
         else:
-            self.sideup = 'Tails'
+            self.__sideup = 'Tails'
 
     def get_sideup(self):
-        return self.sideup
+        return self.__sideup
 
 
 def main():
@@ -212,7 +212,8 @@ def main():
     print('This side is up: ', my_coin.get_sideup())
     print('I am tossing the coin ...')
     my_coin.toss()
-    my_coin.sideup = 'Heads'
+    my_coin.__sideup = 'Heads'
+
     print('This side is up:', my_coin.get_sideup())
 
 
