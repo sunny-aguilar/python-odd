@@ -209,4 +209,6 @@ class Coin:
 
 def main():
     my_coin = Coin()
+    print('This side is up: ', my_coin.get_sideup())
+
 
