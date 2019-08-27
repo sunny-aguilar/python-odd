@@ -5,6 +5,7 @@ import random
 class Coin:
     def __init__(self):
         self.__sideup = 'Heads'
+        self.__value = 7
 
     def toss(self):
         if random.randint(0, 1) == 0:
@@ -16,4 +17,4 @@ class Coin:
         return self.__sideup
 
     def __str__(self):
-        return 'The coin is currently ' + self.get_sideup() + ' up.'
+        return 'The coin is currently ' + self.get_sideup() + ' up.', 'Value is ' + str(self.__value)
